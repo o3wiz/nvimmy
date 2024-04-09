@@ -1,1 +1,1 @@
-print("Hello from core")
+require("core.opts")
