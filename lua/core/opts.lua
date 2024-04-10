@@ -117,3 +117,6 @@ local netrwStyles = {
 }
 vim.g.netrw_liststyle = netrwStyles["tree"]
 vim.g.netrw_banner = 0
+--
+-- If in Insert, Replace or Visual mode put a message on the last line.
+vim.opt.showmode = false
