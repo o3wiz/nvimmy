@@ -2,6 +2,7 @@ return {
     "rose-pine/neovim",
     name = "rose-pine",
     lazy = false,
+    enabled = false,
     config = function()
         require("rose-pine").setup({
             disable_background = true,
